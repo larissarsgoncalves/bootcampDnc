@@ -1,0 +1,47 @@
+ /* pode selecionar atraves de uma #id, .class ou comando tipo paragrafo põe p*/
+    #principal{
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    }   
+
+    #menu{
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+    }
+
+    #principal div a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+
+    #principal button{
+    margin-right: 5%;
+    width: 80px;
+    height: 39px;
+    left: 1245px;
+    top: 31px;
+    border: none;
+    color:  #FFFFFF;
+    background: #0C70F2;
+    box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
+    cursor: pointer; /*só para aparecer a mãozinha quando for em cima do botão*/
+    }
+
+    #principal div a:hover{ /* esse hover faz mudar do lin quando passa o mouse em cima*/
+    color: #cccccc;
+    }
+
