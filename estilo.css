@@ -267,6 +267,7 @@
 
    @media only screen and (max-width: 600px){
       #principal{
+         display: flex;
          height: auto;
          flex-direction: column;
          
@@ -274,6 +275,7 @@
       #menu{
          flex-direction: column;
          padding: 0px;
+         width: 100%;
          
       }
       #menu a{
@@ -301,6 +303,12 @@
       .checkbox-itens label{
          font-size: 12px;
       }
-
+      footer .linha1{
+         flex-direction: column;
+      }
+      footer .endereco{
+         width: 95%;
+         margin-bottom: 20px;
+      }
 
    }
